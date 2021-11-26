@@ -23,6 +23,12 @@ public class MergeSort implements Sorter{
         }
     }
 
+    /**
+     * merges two sorted array
+     * @param a
+     * @param b
+     * @return
+     */
     private int[] merge(int[] a, int[] b){
         int[] result = new int[a.length + b.length];
         int i, j, k = 0;

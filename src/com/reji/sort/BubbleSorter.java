@@ -23,6 +23,12 @@ public class BubbleSorter implements Sorter{
         return a;
     }
 
+    /**
+     * swap elements at index location i and j
+     * @param a
+     * @param i
+     * @param j
+     */
     private void swap(int[] a, int i, int j) {
         a[i] = a[i] + a[j];
         a[j] = a[i] - a[j];
