@@ -2,12 +2,13 @@ package com.reji.sort;
 
 import java.util.Arrays;
 
-public class MergeSort {
+public class MergeSort implements Sorter{
     /**
      * merge sort
      * @param data
      * @return
      */
+    @Override
     public int[] sort(int[] data) {
         if(data.length == 0) {
             return data;
